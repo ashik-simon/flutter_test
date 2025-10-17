@@ -1,16 +1,29 @@
-# test_new
+# Flutter User Dashboard App
 
-A new Flutter project.
+A clean and responsive Flutter app for managing users — built with Firebase Authentication, Firestore, and image upload via Firebase Storage. Users can be added, searched, and viewed in detail with a smooth UI experience.
 
-## Getting Started
+ 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 📱 Phone number authentication (Firebase)
+- 🔍 Real-time user search by name or phone
+- 🧑 Add new users with name, phone, age, and profile image
+- 🖼️ Upload profile images to Firebase Storage
+- 📂 View full user details on card tap
+- 🔄 Infinite scroll with pagination
+- ✅ Form validation and error handling
+- 🎨 Responsive UI with clean layout
 
-A few resources to get you started if this is your first Flutter project:
+🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** (Dart)
+- **Firebase Authentication**
+- **Cloud Firestore**
+- **Firebase Storage**
+- **Provider** for state management
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 📦 Installation
+
+```bash
+git clone https://github.com/ashik-simon/flutter_test.git
+cd flutter_test
+flutter pub get
